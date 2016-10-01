@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: turbine-microservice
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: activities-config-microservice
